@@ -1,1 +1,30 @@
+# Basic LAN Setup – Star Topology
 
+## Objective
+Build a simple LAN using a switch and 5 PCs with static IPs
+and verify connectivity using ping.
+
+## Tools Used
+- Cisco Packet Tracer
+
+##  Topology
+- 1 × Cisco 2960 Switch
+- 5 × PCs connected via Copper Straight-Through cables
+
+##  IP Address Table
+| Device | IP Address     | Subnet Mask     |
+|--------|----------------|-----------------|
+| PC0    | 10.0.0.1       | 255.255.255.0   |
+| PC1    | 10.0.0.2       | 255.255.255.0   |
+| PC2    | 10.0.0.3       | 255.255.255.0   |
+| PC3    | 10.0.0.4       | 255.255.255.0   |
+| PC4    | 10.0.0.5       | 255.255.255.0   |
+
+## Verification
+- Pinged all PCs from PC0 — all replies successful
+- PDU test between PC0 and PC4 — Successful
+
+## 📸 Screenshots
+![TOPOLOGY]
+
+![Ping Output](screenshots/ping.png)
