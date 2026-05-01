@@ -24,7 +24,8 @@ and verify connectivity using ping.
 - Pinged all PCs from PC0 — all replies successful
 - PDU test between PC0 and PC4 — Successful
 
-## 📸 Screenshots
-![TOPOLOGY]
+## Screenshots
+[TOPOLOGY] images/switch.png
+
 
 ![Ping Output](screenshots/ping.png)
